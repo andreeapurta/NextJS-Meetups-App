@@ -9,8 +9,8 @@ async function handler(req, res) {
     const data = req.body; //data=== object {title, image,address, description}
 
     const client = await MongoClient.connect(
-      "mongodb+srv://andreea:qG5zAfZkWM0OOwRu@cluster0.k1tne.mongodb.net/meetups?retryWrites=true&w=majority"
-    );
+      "mongodb+srv://andreea:password@cluster0.k1tne.mongodb.net/meetups?retryWrites=true&w=majority"
+      );
     const db = client.db(); //if it doesn't exist, will be created on the fly)
 
     const meetupsCollection = db.collection("meetups"); //hold of a collection by using your database and then the collection method
