@@ -1,5 +1,6 @@
 // our-domain.com/new-meetup
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 import NewMeetupForm from "../../components/meetups/NewMeetupForm";
 
