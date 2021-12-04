@@ -15,13 +15,7 @@ function MeetupDetails(props) {
         title={props.meetupData.title}
         address={props.meetupData.address}
         description={props.meetupData.description}
-      />
-      <MeetupDetail
-        image={props.meetupData.image}
-        title={props.meetupData.title}
-        address={props.meetupData.address}
-        description={props.meetupData.description}
-      />
+      />     
     </>
   );
 }
